@@ -71,6 +71,8 @@
     "rax-hot-loader": "latest",
     "rax-webpack-plugin": "latest",
     "stylesheet-loader": "latest",
-    "watch-missing-node-modules-webpack-plugin": "0.0.1"
+    "watch-missing-node-modules-webpack-plugin": "0.0.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
   }
 }
