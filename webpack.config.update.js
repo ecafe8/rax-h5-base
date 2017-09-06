@@ -6,10 +6,7 @@ const srcPath = path.resolve('./src');
 
 module.exports = (config) => {
   const updateConfig = {
-    ...config,
-    entry: {
-      'build/weex-index': [path.resolve(srcPath, 'index.js')], // 支持rax-mod的rax-viewer
-    },
+    ...config
   };
   updateConfig.plugins.push(
     new RaxWebpackPlugin({
